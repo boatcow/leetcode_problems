@@ -48,7 +48,7 @@ Now whatever path player two takes,
             for any particular column, (prefixMatrix[i][0] + prefixMatrix[i][1]) 
             will give total path sum of Player 1
     
-    # for player two this will be MIN of (ROW1 PrefixSum[-1] - PrefixSum[i],  ROW2 PrefixSum[0] - PrefixSum[i]_
+    # for player two this will be MAX of (ROW1 PrefixSum[-1] - PrefixSum[i],  ROW2 PrefixSum[0] - PrefixSum[i]_
     # we minimize the above score to find the result
 
 '''
